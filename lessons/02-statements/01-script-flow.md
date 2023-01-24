@@ -45,7 +45,7 @@ These are variables! So you must declare them before you use them.
 
 ```js
 // must define it before i can call it
-const sayHello = () => {
+const sayHello = function () {
   console.log("hello!");
 };
 

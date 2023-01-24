@@ -3,8 +3,8 @@
  * Fix the following code so that it runs.
  */
 
-function = sayHello(){
+function say-hello() {
   console.log("Hello!");
 }
 
-sayHello();
+say-hello();
