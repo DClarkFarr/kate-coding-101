@@ -80,3 +80,37 @@ var NanValue = NaN; // NaN is falsey.
 
 var nullValue = null; // null is falsey.
 ```
+
+### Using ! (not)
+
+The exclamation mark means "NOT" or "THE OPPOSITE".
+
+It's very handy when we want to get into an `if` statement, when a value is false.
+
+For example, if there is no name given, we want to abort the script and throw an error.
+
+```js
+var name = ""; // Ooops, the name is empty!
+
+// How do we make this true?
+if (name) {
+    // this will not trigger
+
+    // this is how we throw an error
+    // it will kill the script
+    throw new Error("No name given!");
+}
+
+// Like this...
+if (!name) {
+    // this will trigger. Because we take the "falsey" value and make it "truthy" with the "not" operator.
+
+    // When reading the above we would say "If not name", which is the same as "if name is empty"
+
+    throw new Error("No name given!");
+}
+```
+
+```
+
+```
