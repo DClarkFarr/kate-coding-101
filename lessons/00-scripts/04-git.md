@@ -45,9 +45,3 @@ git status
 # Let's push it!
 git push origin master
 ```
-
-**Check your branch**
-
-```bash
-
-```
