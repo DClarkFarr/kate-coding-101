@@ -174,3 +174,54 @@ console.log("there are " + counter + " even numbers in the range of 1 to 10");
 // output
 // there are 5 even numbers in the range of 1 to 10
 ```
+
+### `break` and `continue`
+
+`for` loops have two special words that can be used inside the loop. `break` and `continue`.
+
+`break` will stop the loop immediately. It will not run any more iterations of the loop.
+
+`continue` will stop the current iteration of the loop, and start the next one.
+
+**Break example**
+Loop over words in an array. If the word is "stop", stop the loop.
+
+```js
+var words = ["hello", "world", "stop", "again"];
+
+for (var i = 0; i < words.length; i++) {
+  if (words[i] === "stop") {
+    // stop the loop immediately
+    console.log("word was stop, breaking loop");
+
+    // this will stop the loop
+    // nothing more will run after break;
+    break;
+  }
+  console.log(words[i]);
+}
+```
+
+**Continue example**
+Loop over words in an array. If the word is "skip", skip the current iteration.
+
+```js
+var counter = 0;
+var words = ["hello", "world", "skip", "again"];
+
+for (var i = 0; i < words.length; i++) {
+  if (words[i] === "skip") {
+    // skip the current iteration
+    console.log("word was skip, skipping iteration");
+
+    // this will skip the current iteration
+    // and start the next one
+    continue;
+  }
+  // counter will only be incremented if the word is not "skip"
+  counter++;
+  console.log(words[i]);
+}
+
+console.log("counter is now " + counter); // 3, because we skipped 1
+```
