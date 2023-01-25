@@ -1,3 +1,4 @@
+// @ts-nocheck
 /**
  * Challenge
  * Complete the function below so that the code
@@ -36,6 +37,23 @@ const isValidUser = function (user) {
   // return true or false
 };
 
-console.log("User 1 is valid:", isValidUser(user1)); // true
-console.log("User 2 is valid:", isValidUser(user2)); // false
-console.log("User 3 is valid:", isValidUser(user3)); // false
+// true
+if (isValidUser(user1)) {
+  console.log("User 1 is valid:");
+} else {
+  console.log("User 1 is not valid:");
+}
+
+// false
+if (isValidUser(user2)) {
+  console.log("User 2 is valid:");
+} else {
+  console.log("User 2 is not valid:");
+}
+
+// false
+if (isValidUser(user3)) {
+  console.log("User 3 is valid:");
+} else {
+  console.log("User 3 is not valid:");
+}
