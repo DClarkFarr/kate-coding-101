@@ -121,8 +121,10 @@ We can use operators! Here's a quick list: (See the operators section for more).
 - `>=` greater OR equal than
 - `<` less than
 - `<=` less than OR equal to
-- `==` roughly equal
-- `===` exactly equal in every way
+- `==` equal in value
+- `===` equal in value and type
+- `!=` not equal in value
+- `!==` not equal in value or type
 
 ```js
 var age = getPersonsAge();
