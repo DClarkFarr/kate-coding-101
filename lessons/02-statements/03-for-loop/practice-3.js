@@ -1,5 +1,5 @@
 /**
- * Challenge
+ * Finish it
  *
  * Output should be: "one", "two", "three", etc.
  * Make a for loop that loops over the array

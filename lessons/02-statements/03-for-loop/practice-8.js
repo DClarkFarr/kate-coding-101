@@ -1,5 +1,5 @@
 /**
- * Challenge
+ * DO IT
  *
  * Loop over the following numbers.
  * Log each number as you start the loop.  Like: console.log("Start of loop: " + number);

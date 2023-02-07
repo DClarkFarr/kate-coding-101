@@ -1,5 +1,5 @@
 /**
- * Challenge
+ * Finish it
  *
  * Make a for loop that loops over the array backwards.
  * Output should be: "one", "two", "three", etc.

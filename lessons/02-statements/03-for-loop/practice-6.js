@@ -1,5 +1,5 @@
 /**
- * Challenge
+ * DO IT
  * Complete the function below so that the code
  * outputs the correct messages.
  *
@@ -43,7 +43,7 @@ var user3 = {
   password: false, // no password
 };
 
-const isValidUser = function (user) {
+function isValidUser(user) {
   // Let's use a loop to check the values!  Here's how:
   // 1. create a variable called "status" and set it to true;
   // 2. create an array with each of the fields we want to check,
@@ -53,7 +53,7 @@ const isValidUser = function (user) {
   // 5. check if the user has that field by doing user[field]
   // 6. if the user doesn't have that field, set status to false
   // 7. return status
-};
+}
 
 console.log("User 1 is valid:", isValidUser(user1)); // true
 console.log("User 2 is valid:", isValidUser(user2)); // false

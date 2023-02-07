@@ -109,7 +109,7 @@ for (var i = 11; i < 26; i++) {
 // etc...
 ```
 
-### for loop scope
+### For loop scope
 
 Everything inside the `{}` (curly braces) of the for-loop are in their own scope. They can see values outside of the loop, but after the loop is over, any variables CREATED INSIDE the loop will not be accessible. Depending on the environment, this will throw an error.
 
@@ -203,6 +203,7 @@ for (var i = 0; i < words.length; i++) {
 ```
 
 **Continue example**
+
 Loop over words in an array. If the word is "skip", skip the current iteration.
 
 ```js

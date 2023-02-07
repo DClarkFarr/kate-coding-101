@@ -1,5 +1,5 @@
 /**
- * Challenge
+ * Do it
  * Create a counter loop;
  * Give it a start value of 15
  * Give it an end value of 45
