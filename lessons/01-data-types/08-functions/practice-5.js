@@ -4,12 +4,12 @@
  */
 
 
-const arrayOfWords = [
+var arrayOfWords = [
   "I", "wish", "I", "had", "an", "animatronic"
 ];
 
 console.log("my sentence is:" joinArrayWithSpaces(arrayOfWords));
 
-const joinArrayWithSpaces = function (array) {
+var joinArrayWithSpaces = function (array) {
   return array.join(" ");
 }

@@ -53,7 +53,7 @@ Let's take a function that takes a first name, a last name, and combines them.
 
 ```js
 function makeFullName(firstName, lastName) {
-  const fullName = firstName + " " + lastName;
+  var fullName = firstName + " " + lastName;
 
   console.log("made a full name:", fullName);
 }

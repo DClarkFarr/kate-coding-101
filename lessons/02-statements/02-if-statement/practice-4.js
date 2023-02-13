@@ -13,7 +13,7 @@
 // like we did in the last practice
 // this time, we'll use a local function to help us!
 
-const checkAge = function (age) {
+var checkAge = function (age) {
   var minAge = 13;
   var maxAge = 25;
 

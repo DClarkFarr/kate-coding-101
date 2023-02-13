@@ -4,7 +4,7 @@
  */
 
 // convert a string to all uppercase characters
-const stringToUppercase = (string) {
+var stringToUppercase = (string) {
   return string.toUpperCase();
 };
 

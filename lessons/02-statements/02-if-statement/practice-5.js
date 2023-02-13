@@ -12,7 +12,7 @@
  * If a user is 80+: You are {age}. You are freaky old
  */
 
-const checkAge = function (age) {
+var checkAge = function (age) {
   var message = "You are a child";
 
   /* Your code here */

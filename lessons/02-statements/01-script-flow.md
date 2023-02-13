@@ -30,7 +30,7 @@ This will break
 ```js
 console.log("My name is:", name);
 
-const name = "Cassidy";
+var name = "Cassidy";
 ```
 
 ### Functions
@@ -45,7 +45,7 @@ These are variables! So you must declare them before you use them.
 
 ```js
 // must define it before i can call it
-const sayHello = function () {
+var sayHello = function () {
   console.log("hello!");
 };
 

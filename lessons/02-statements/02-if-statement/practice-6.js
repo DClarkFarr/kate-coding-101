@@ -32,7 +32,7 @@ var user3 = {
   password: false, // no password
 };
 
-const isValidUser = function (user) {
+var isValidUser = function (user) {
   /* your code here */
   // return true or false
 };

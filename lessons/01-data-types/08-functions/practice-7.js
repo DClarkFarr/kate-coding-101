@@ -20,6 +20,6 @@ function greetFamily() {
 
 greetFamily();
 
-const greetPerson = function (name) {
+var greetPerson = function (name) {
   logString(sayHello(name));
 };
